@@ -1,6 +1,6 @@
 import { Row, Col } from "react-bootstrap";
 import { useRouter } from "next/router";
-import ArtworkCardDetail from "@/components/ArtworkCardDetails";
+import ArtworkCardDetails from "@/components/ArtworkCardDetails";
 
 export default function ArtworkID() {
   const router = useRouter();
@@ -9,7 +9,7 @@ export default function ArtworkID() {
   return (
     <Row>
       <Col>
-        <ArtworkCardDetail objectID={objectID} />
+        <ArtworkCardDetails objectID={objectID} />
       </Col>
     </Row>
   );
