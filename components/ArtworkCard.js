@@ -36,7 +36,7 @@ export default function ArtworkCard({ objectID }) {
             {title.length > 0 ? (
               <Card.Title>{title}</Card.Title>
             ) : (
-              <Card.Title>'N/A'</Card.Title>
+              <Card.Title>N/A</Card.Title>
             )}
             <Card.Text>
               Date: {objectDate ? objectDate : "N/A"}
