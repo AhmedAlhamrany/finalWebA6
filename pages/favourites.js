@@ -6,6 +6,7 @@ import { Row, Col, Card} from 'react-bootstrap'
 export default function Favourties(){
 
     const [favouritesList] = useAtom(favouritesAtom)
+    if(!favouritesList) return null;
 
     return (
         <>
